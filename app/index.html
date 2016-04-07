@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>some app</title>
+    <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="style/style.css" rel="stylesheet">
+</head>
+
+<body data-ng-app="app">
+
+    <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
+        <a class="navbar-brand" href="#">Project name</a>
+        <ul class="nav navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Some dummy app</h1>
+                <p class="lead">Use this document as a way to quickly start any new project.
+                    <br> All you get is this text and a mostly barebones HTML document.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <shortcut-group></shortcut-group>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="vendor/jquery/dist/jquery.min.js"></script>
+    <script src="vendor/angular/angular.min.js"></script>
+    <script src="vendor/lodash/dist/lodash.min.js"></script>
+
+    <script src="app.js"></script>
+    <script src="components/components.js"></script>
+    <script src="components/shortcut-group/shortcutGroup.js"></script>
+    <script src="components/shortcut/shortcut.js"></script>
+
+</body>
+
+</html>

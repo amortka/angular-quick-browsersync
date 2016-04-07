@@ -1,0 +1,22 @@
+body {
+  padding-top: 5rem;
+  background-color: aliceblue; }
+
+.Shortcut {
+  position: absolute;
+  display: block;
+  width: 200px;
+  height: 160px;
+  background-color: darkorange;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  line-height: 160px;
+  font-size: 50px;
+  font-weight: 700; }
+
+.ShortcutGroup {
+  display: block;
+  height: 160px;
+  background-color: #ccc;
+  overflow: hidden; }
